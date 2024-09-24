@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h> 
 #include<math.h>
 
 /**
@@ -6,7 +6,7 @@
  */
 int main(int argc, char const *argv[])
 {
-    float x = 21 - 26%9 * 2%3 - sqrtf(23) * (3%4);
+    float x = 21 - 26%9 * 2%3 - sqrtf(24) * (3%4);
 
     printf("%f", x);
 
